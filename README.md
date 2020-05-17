@@ -1,17 +1,19 @@
-# Supported tags and respective `Dockerfile` links
-
--	[`latest` (*Dockerfile*)](https://github.com/<organization>/docker-<product>/blob/master/Dockerfile)
-
 # Quick reference
+
+-	**Maintained by**:
+	[the <organization-title> Team](https://github.com/<organization>/docker-mkpasswd)
 
 -	**Where to get help**:
 	[the <organization-title> online doc](http://doc.<organization>.com/), [the <organization-title> Support Organization](https://support.<organization>.com/)
 
+# Supported tags and respective `Dockerfile` links
+
+-	[`latest` (*Dockerfile*)](https://github.com/<organization>/docker-<product>/blob/master/Dockerfile)
+
+# Quick reference (cont.)
+
 -	**Where to file issues**:
 	[https://github.com/<organization>/docker-mkpasswd/issues](https://github.com/<organization>/docker-mkpasswd/issues)
-
--	**Maintained by**:
-	[the <organization-title> Team](https://github.com/<organization>/docker-mkpasswd)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))
 	[`amd64`](https://hub.docker.com/r/amd64/<product>/)
@@ -55,3 +57,21 @@ The template is parameterized so that you can use sed to replace strings globall
 The sample Docker is operational, and fully secure, and CLAIRE scanned. It for illustration purposes simply provides CURL.
 
 The sample Docker uses Alpine 3.11, to keep the image lightweight.
+
+# License
+
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+View [license information](https://raw.githubusercontent.com/tool-dockers/docker-whois/master/LICENSE) for the software contained in this image.
+
+As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
+
+As for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.
+
+# About
+
+[tool-dockers][website] maintains and funds this project.
+
+  [logo]: https://avatars3.githubusercontent.com/u/57697117?s=60&v=4
+  [website]: https://continuul.solutions
+  [slack]: https://continuul.slack.com
